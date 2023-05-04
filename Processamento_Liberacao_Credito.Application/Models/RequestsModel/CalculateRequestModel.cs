@@ -5,7 +5,7 @@ namespace Processamento_Liberacao_Credito.Application.Models.RequestsModel
     public class CalculateRequestModel
     {
         [JsonPropertyName("creditType")]
-        public CreditType? CreditType { get; set; };
+        public CreditType? CreditType { get; set; }
 
         [JsonPropertyName("amount")]
         public decimal? Amount { get; set; }
