@@ -9,8 +9,21 @@ curl -X 'POST' \
   -H 'accept: text/plain' \
   -H 'Content-Type: application/json' \
   -d '{
-  "creditType": 0,
-  "amount": 0,
-  "installmentQuantity": 0,
-  "firstDueDate": "2023-05-04T19:50:01.445Z"
+  "creditType": 3,
+  "amount": 50000,
+  "installmentQuantity": 72,
+  "firstDueDate": "2023-05-24T20:55:30.955Z"
 }'.
+
+
+obtendo o seguinte objeto de respota:
+
+{
+  "error": false,
+  "errorMessage": "",
+  "dataResult": {
+    "approved": true,
+    "TEC": 158000,
+    "interestAmount": 108000
+  }
+}
